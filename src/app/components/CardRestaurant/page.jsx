@@ -8,7 +8,7 @@ import React from 'react'
 const page = ({resp}) => {
   return (
     <>
-         {resp.map((item,index) => (
+         {resp && resp.map((item,index) => (
              <div className="cursor-pointer text-color-primary w-[310px] h-[390px] bg-color-accent transition-all p-3 flex flex-col gap-5 rounded-2xl justify-between items-center hover:scale-105 shadow-lg mt-2" key={index}>
                <h3 className="text-center font-medium text-2xl">{item.name}</h3>
                <div className="w-full ">
