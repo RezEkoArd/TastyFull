@@ -17,7 +17,7 @@ const Home = async () => {
       {/* Section List */}
       <div className="w-full  bg-color-secondary relative ">
         <Navbar/>
-        <RestaurantList api={RestaurantData}/>
+          <RestaurantList api={RestaurantData}/>
         <Footer/>
       </div>
     </main>

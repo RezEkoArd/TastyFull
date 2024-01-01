@@ -11,6 +11,7 @@ import {motion} from "framer-motion";
 
 
 const DetailRestaurant = ({data}) => {
+
   return (
     <div className='w-full max-h-max px-5 bg-color-secondary'>
       <Navbar />
@@ -46,7 +47,7 @@ const DetailRestaurant = ({data}) => {
           </div>
           <p className='leading-7 text-ellipsis overflow-hidden md:w-3/5 text-justify'>{data.description}</p>
           <MasterMenu drinks={data.menus.drinks} foods={data.menus.foods}/>
-          <Review review={data.customerReviews}/>
+          <Review review={data.customerReviews} reviewId={data.id}/>
       </motion.div>
     </div>
   )

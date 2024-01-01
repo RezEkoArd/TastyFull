@@ -5,7 +5,7 @@ import Link from "next/link"
 import {  useState } from "react"
 import Pagination from "../utils/Pagination"
 import ImageLoader from "@/app/libs/imageLoader"
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
 
@@ -27,14 +27,14 @@ const index = ({api}) => {
                 <motion.div 
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="cursor-pointer text-color-primary w-[310px] h-[390px] bg-color-accent transition-all p-3 flex flex-col gap-5 rounded-2xl justify-between items-center hover:scale-105 shadow-lg mt-2" key={index}>
-                  <h3 className="text-center font-medium text-2xl">{item.name}</h3>
-                  <div className="w-full ">
+                className="cursor-pointer text-color-primary w-[300px] h-[370px] bg-color-accent transition-all p-3 flex flex-col gap-5 rounded-2xl justify-between items-center hover:scale-105 shadow-lg mt-2" key={index}>
+                  <h3 className="text-center font-medium text-xl">{item.name}</h3>
+                  <div className="w-full h-[200px]  ">
                         <Image 
                         loader={ImageLoader}
                         src={item.pictureId}
-                        width={200}
-                        height={300}
+                        width={150}
+                        height={150}
                         alt={item.name}
                         className="object-cover w-full h-full rounded-sm"
                         />

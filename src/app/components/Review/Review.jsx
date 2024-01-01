@@ -1,8 +1,9 @@
 
 import {  ArrowFatLineDown, ArrowFatLineUp, UserCircle } from '@phosphor-icons/react'
 import { useEffect, useState } from 'react'
+import FormReview from '../FormReview/FormReview';
 
-const Review = ({review}) => {
+const Review = ({review, reviewId}) => {
     
     const [selected, setSelected] = useState(false);
     const [data, setData] = useState([]);
@@ -28,6 +29,7 @@ const Review = ({review}) => {
     return (
     <div className='flex flex-col justify-center items-center w-full md:w-2/5 gap-4 '>
         <h3 className='font-semibold text-2xl mb-5'>Review</h3>
+        <FormReview reviewId={reviewId}/>
         { data.map((item,index) => (
             <div className='w-full min-h-max bg-color-accent rounded-lg text-color-primary p-5 flex flex-row gap-5 ' key={index}>
                 <div><UserCircle size={50} weight="duotone" /></div>
@@ -57,8 +59,6 @@ const Review = ({review}) => {
             <ArrowFatLineUp size={32} weight="duotone" /></span>
             </div>
         }
-
-        
 
        
     </div> 
