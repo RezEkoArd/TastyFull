@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css";
 import Link from 'next/link';
-
+import video from "@/videos/video.mp4"
 const Hero = () => {
   return (
     <div className={styles.contents}>
@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
         </div>
         <video 
-        src={require('../../../../public/video.mp4')} 
+        src={video} 
         autoPlay 
         muted 
         loop 
