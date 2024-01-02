@@ -16,10 +16,10 @@ const Footer = () => {
             <Link href="/">
               <InstagramLogo size={32} weight="duotone" />
             </Link>
-            <Link href="/https://github.com/RezEkoArd">
+            <Link href="https://github.com/RezEkoArd">
               <GithubLogo size={32} weight="duotone" />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/rezekoard/">
               <LinkedinLogo size={32} weight="duotone" />
             </Link>
           </div>
