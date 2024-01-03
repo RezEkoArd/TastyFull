@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Tastyful",
   description: "New Experience Journey your Tastyful Bites",
+  icons: {
+    icon: '/favicon.png'
+  }
 };
 
 export default function RootLayout({ children }) {

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
-// import videoBg from "@/assets/videoBg.mp4";
 
 const Hero = () => {
   return (
