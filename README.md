@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍽️ TastyFully
 
-## Getting Started
+**TastyFully** is a private project built for learning and exploring the capabilities of **Next.js 14**, **Framer Motion**, and integration with **Public APIs**. This application focuses on delivering a smooth UI/UX with modern features such as filtering, sorting, and pagination to browse a collection of recipes or food items.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🍜 Dynamic content from Public API
+- 🔍 Filter & sort food items
+- 📃 Paginated content display
+- 🎞️ Smooth animations using Framer Motion
+- 💡 Built with App Router (Next.js 14)
+- 💄 Styled with Tailwind CSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Built With
 
-## Learn More
+- [Next.js 14](https://nextjs.org/) (App Router, RSC, Server Actions)
+- [Framer Motion](https://www.framer.com/motion/) (for animations)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Public Food API (e.g., TheMealDB or similar)
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="center">
+  <img src="./assets/tastyfully-home.png" alt="Homepage" width="45%" />
+  <img src="./assets/tastyfully-detail.png" alt="Detail Page" width="45%" />
+</p>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Learning Objectives
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Explore real-world use cases with **Next.js 14 App Router**
+- Mastering page transitions and UI feedback with **Framer Motion**
+- Learn how to consume and manipulate data from **Public APIs**
+- Improve understanding of **filtering, sorting, and paginated views**
+
+---
+
+## 📝 License
+
+This project is for learning purposes only and is not intended for production use.
+
+---
+
+## 🙋‍♂️ Author
+
+Built with ❤️ by Rezekoard
